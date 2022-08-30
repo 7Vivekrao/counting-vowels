@@ -1,5 +1,7 @@
-counter = 0
-for char in s:
+#This code helps us to count the number of vowels in a given string 's'.
+count = 0
+s = 'ababfipedioukdidnvhriri'
+for char in s:  #char represents each character in 's'.
   if char == 'a' or char == 'e' or char == 'i' or char == 'o' or char == 'u':
-     counter = counter + 1
+     count = count + 1
 print("Number of vowels:" +""+str(counter))
